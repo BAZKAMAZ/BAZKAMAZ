@@ -8,92 +8,108 @@
       dominant-baseline: central;
     }
 
-    /* Анимация буквы B */
+    /* Буква B */
     @keyframes anim-b {
-      0%, 3.3%    { opacity: 0; fill: #00FF66; }
-      3.4%, 26.6% { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      26.7%, 30%  { opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      30.1%, 63%  { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      63.1%, 100% { opacity: 0; }
+      0%, 3.0%    { opacity: 0; fill: #00FF66; }
+      3.5%        { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      25.0%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      27.0%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      29.0%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      62.0%       { opacity: 1; }
+      62.5%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы A1 */
+    /* Буква A1 */
     @keyframes anim-a1 {
-      0%, 5.8%    { opacity: 0; fill: #00FF66; }
-      5.9%, 30%   { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      30.1%, 33.3%{ opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      33.4%, 65.5%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      65.6%, 100% { opacity: 0; }
+      0%, 5.5%    { opacity: 0; fill: #00FF66; }
+      6.0%        { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      27.2%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      29.2%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      31.2%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      64.5%       { opacity: 1; }
+      65.0%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы Z1 */
+    /* Буква Z1 */
     @keyframes anim-z1 {
-      0%, 8.3%    { opacity: 0; fill: #00FF66; }
-      8.4%, 33.3% { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      33.4%, 36.7%{ opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      36.8%, 68%  { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      68.1%, 100% { opacity: 0; }
+      0%, 8.0%    { opacity: 0; fill: #00FF66; }
+      8.5%        { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      29.4%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      31.4%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      33.4%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      67.0%       { opacity: 1; }
+      67.5%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы K */
+    /* Буква K */
     @keyframes anim-k {
-      0%, 10.8%   { opacity: 0; fill: #00FF66; }
-      10.9%, 36.7%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      36.8%, 40%  { opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      40.1%, 70.5%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      70.6%, 100% { opacity: 0; }
+      0%, 10.5%   { opacity: 0; fill: #00FF66; }
+      11.0%       { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      31.6%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      33.6%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      35.6%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      69.5%       { opacity: 1; }
+      70.0%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы A2 */
+    /* Буква A2 */
     @keyframes anim-a2 {
-      0%, 13.3%   { opacity: 0; fill: #00FF66; }
-      13.4%, 40%  { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      40.1%, 43.3%{ opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      43.4%, 73%  { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      73.1%, 100% { opacity: 0; }
+      0%, 13.0%   { opacity: 0; fill: #00FF66; }
+      13.5%       { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      33.8%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      35.8%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      37.8%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      72.0%       { opacity: 1; }
+      72.5%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы M */
+    /* Буква M */
     @keyframes anim-m {
-      0%, 15.8%   { opacity: 0; fill: #00FF66; }
-      15.9%, 43.3%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      43.4%, 46.7%{ opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      46.8%, 75.5%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      75.6%, 100% { opacity: 0; }
+      0%, 15.5%   { opacity: 0; fill: #00FF66; }
+      16.0%       { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      36.0%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      38.0%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      40.0%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      74.5%       { opacity: 1; }
+      75.0%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы A3 */
+    /* Буква A3 */
     @keyframes anim-a3 {
-      0%, 18.3%   { opacity: 0; fill: #00FF66; }
-      18.4%, 46.7%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      46.8%, 50%  { opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      50.1%, 78%  { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      78.1%, 100% { opacity: 0; }
+      0%, 18.0%   { opacity: 0; fill: #00FF66; }
+      18.5%       { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      38.2%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      40.2%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      42.2%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      77.0%       { opacity: 1; }
+      77.5%, 100% { opacity: 0; }
     }
 
-    /* Анимация буквы Z2 */
+    /* Буква Z2 */
     @keyframes anim-z2 {
-      0%, 20.8%   { opacity: 0; fill: #00FF66; }
-      20.9%, 50%  { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      50.1%, 53.3%{ opacity: 1; fill: #FFFFFF; filter: drop-shadow(0 0 16px #FFFFFF); }
-      53.4%, 80.5%{ opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
-      80.6%, 100% { opacity: 0; }
+      0%, 20.5%   { opacity: 0; fill: #00FF66; }
+      21.0%       { opacity: 1; fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      40.4%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      42.4%       { fill: #FFFFFF; filter: drop-shadow(0 0 18px rgba(255,255,255,1)); } /* Пик белого */
+      44.4%       { fill: #00FF66; filter: drop-shadow(0 0 8px rgba(0,255,102,0.8)); }
+      79.5%       { opacity: 1; }
+      80.0%, 100% { opacity: 0; }
     }
 
-    .l0 { animation: anim-b  6s infinite; }
-    .l1 { animation: anim-a1 6s infinite; }
-    .l2 { animation: anim-z1 6s infinite; }
-    .l3 { animation: anim-k  6s infinite; }
-    .l4 { animation: anim-a2 6s infinite; }
-    .l5 { animation: anim-m  6s infinite; }
-    .l6 { animation: anim-a3 6s infinite; }
-    .l7 { animation: anim-z2 6s infinite; }
+    .l0 { animation: anim-b  6s ease-in-out infinite; }
+    .l1 { animation: anim-a1 6s ease-in-out infinite; }
+    .l2 { animation: anim-z1 6s ease-in-out infinite; }
+    .l3 { animation: anim-k  6s ease-in-out infinite; }
+    .l4 { animation: anim-a2 6s ease-in-out infinite; }
+    .l5 { animation: anim-m  6s ease-in-out infinite; }
+    .l6 { animation: anim-a3 6s ease-in-out infinite; }
+    .l7 { animation: anim-z2 6s ease-in-out infinite; }
   </style>
 
   <g id="letters">
     <text x="203" y="60" class="l0">B</text>
     <text x="245" y="60" class="l1">A</text>
-    <text x="287" y="60" class="l2" >Z</text>
+    <text x="287" y="60" class="l2">Z</text>
     <text x="329" y="60" class="l3">K</text>
     <text x="371" y="60" class="l4">A</text>
     <text x="413" y="60" class="l5">M</text>
